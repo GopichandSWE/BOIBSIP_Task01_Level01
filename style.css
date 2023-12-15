@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+
+.hero{
+    width: 100%;
+    height:100vh;
+    background-image:url(assets/Travel_Lifestyle_Recreation_n4aq8s.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    position: relative;
+    
+}
+
+.title{
+    color: whitesmoke;
+    font-size: xx-large;
+    padding: 10px 30px ;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    background-color: rgb(102, 87, 87);
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: larger;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.navbar ul li a:hover{
+    color:#555;
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.details{
+    padding-left: 25%;
+    padding-top: 40vh;
+    width:50%;
+}
+
+.intro{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #ef6363(106, 100, 86);
+}
+
+.subhead{
+    line-height: 2;
+    margin: 0 35px ;
+}
+
+figure{
+    width:100%;
+    display: grid;
+    place-items: center;
+}
+
+a{
+    margin:0 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.seasonal_destin a:hover{
+    background-color: #52a0fa;
+    border-radius: 10px;
+}
+
+.theme_destin a:hover{
+    background-color: #8abdf8;
+    border-radius: 10px;
+}
+
+.seasonal_destin figure img{
+    width: 250px;
+    height: 160px;
+    border-radius:8px 8px ;
+}
+
+.seasonal_destin{
+    display: flex;
+    justify-content: center;
+}
+
+.visit{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.theme_destin figure img{
+    width: 200px;
+    height: 140px;
+    border-radius:8px 8px ;
+}
+
+.theme_destin{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: darkslategrey;
+    color: #fff;
+    padding:  5% 10%;
+} 
+
+
+footer nav a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.contact{
+    margin-top: 30px;
+    line-height: 2;
+    margin-left: 5%;
+}
+
+.email{
+    color: #fff;
+}
+
